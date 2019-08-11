@@ -1,0 +1,41 @@
+{
+  "name": "@supportclass/prettier-config",
+  "version": "0.0.0-development",
+  "description": "GDQ's re-usable config for the Prettier code formatter.",
+  "main": "prettier.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "files": [
+    "prettier.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamesDoneQuick/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Support Class <alex@supportclass.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GamesDoneQuick/prettier-config/issues"
+  },
+  "homepage": "https://github.com/GamesDoneQuick/prettier-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "husky": "^3.0.3",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "semantic-release": "^15.13.19"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
