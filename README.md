@@ -1,4 +1,4 @@
-# GDQ's prettier-config [![npm](https://img.shields.io/npm/v/@gamesdonequick/prettier-config.svg)](https://www.npmjs.com/package/@gamesdonequick/prettier-config)
+# GDQ's prettier-config [![npm](https://img.shields.io/npm/v/@gamesdonequick/prettier-config.svg)](https://www.npmjs.com/package/@gamesdonequick/prettier-config) [![Build Status](https://dev.azure.com/gamesdonequick/prettier-config/_apis/build/status/GamesDoneQuick.prettier-config?branchName=master)](https://dev.azure.com/gamesdonequick/prettier-config/_build/latest?definitionId=5&branchName=master)
 
 > Our re-usable config for the Prettier code formatter.
 
