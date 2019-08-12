@@ -1,5 +1,5 @@
 {
-  "name": "@supportclass/prettier-config",
+  "name": "@gamesdonequick/prettier-config",
   "version": "0.0.0-development",
   "description": "GDQ's re-usable config for the Prettier code formatter.",
   "main": "prettier.config.js",
@@ -18,7 +18,7 @@
     "prettier",
     "config"
   ],
-  "author": "Support Class <alex@supportclass.net>",
+  "author": "Games Done Quick <engineering@gamesdonequick.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GamesDoneQuick/prettier-config/issues"
