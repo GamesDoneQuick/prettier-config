@@ -20,6 +20,6 @@ module.exports = {
    * Indeed, all of Discord seems to use this setting.
    * 
    * Lange: having tested this on some of my own real-world code,
-   * I agree with Faulty that it does make things easier to read.
+   * I agree with Faulty that it does make things easier to read. */
    printWidth: 120,
 };
