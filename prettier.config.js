@@ -10,6 +10,18 @@ module.exports = {
    * So, we find single quotes easier to type and prefer them. */
   singleQuote: true,
   
+  /* When JSX attributes end up spanning multiple lines, Prettier's default
+   * setting will put the single closing angle bracket on a new line, which
+   * adds awkward visual space between an element and it's children.
+   *
+   * Collapsing these onto the last line of the attribute list makes the
+   * hierarchy more clear, especially as components get nested further.
+   *
+   * This does _not_ affect self-closing JSX tags, which will still have the
+   * closing bracket on a new line to clearly indicate the lack of children.
+   */
+  jsxBracketSameLine: true,
+  
   /* It's true that Prettier warns pretty heavily against setting
    * this higher than 80 columns: https://prettier.io/docs/en/options.html#print-width
    *
